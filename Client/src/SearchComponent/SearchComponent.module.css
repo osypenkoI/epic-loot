@@ -1,0 +1,109 @@
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+    max-width: 500px;
+}
+
+.productCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--Ilona-bg, #111);
+    padding: 16px;
+    
+    
+    
+}
+
+.productCardGroup {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.productCardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.productCardImageRes {
+    width: 120px;
+    height: 115px;
+}
+
+.productCardText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 170px;
+    color: var(--Ilona-text_light, #F4F7FF);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    width: 100%;
+}
+
+.instanceParent {
+    width: 700px;
+    border-radius: 8px;
+    background-color: #101011;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+.linearSearchMagniferWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linearSearchMagnifer {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.searchInput {
+    width: 100%;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+    color: #F4F7FF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 0 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+/* Контейнер для результатов поиска */
+.searchResults {
+    position: absolute; /* Размещаем результаты поиска поверх остальных элементов */
+    top: 100px; /* Позиционируем ниже строки поиска */
+    left: 60px;
+    width: 100%;
+    max-width: 700px;
+    
+    padding: 10px 16px;
+    border-radius: 8px;
+    
+    z-index: 9999; /* Обеспечиваем, что контейнер будет поверх всех других элементов */
+    max-height: 400px;
+    overflow-y: auto; /* Добавляем прокрутку, если элементов больше */
+}

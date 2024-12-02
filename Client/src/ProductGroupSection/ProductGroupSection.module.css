@@ -1,0 +1,24 @@
+.groupSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.groupTitle {
+    color: var(--Ilona-text_light, #F4F7FF);
+
+    /* main/h_semibold_24 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 31.2px */
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}

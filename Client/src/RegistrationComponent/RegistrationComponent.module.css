@@ -1,0 +1,262 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Затемнённый фон */
+    z-index: 999; /* Выше всех остальных элементов */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: var(--Ilona-bg, #111); /* Основной цвет компонента */
+    border-radius: 8px;
+    padding: 20px;
+    width: 616px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
+
+.errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.successMessage {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.frame {
+    display: flex;
+    width: 616px;
+    padding: 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Ilona-bg, #111);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.headerGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+
+.headerText {
+    color: var(--Ilona-text_light, #F4F7FF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.closeIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.registrationGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.inputLineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.inputLineGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.inputLineItemHeader {
+    color: var(--Ilona-text_light, #F4F7FF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+.inputButtonGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--Ilona-bg_main, #19191B);
+}
+
+.inputButton {
+    display: flex;
+    padding: 12px 0px 12px 20px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--Ilona-bg_main, #19191B);
+}
+
+input:focus {
+    outline: none inset !important;
+    border: none inset !important;
+    box-shadow: none inset !important;
+}
+
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px var(--Ilona-bg_main, #19191B) inset !important;
+
+}
+
+input:-webkit-autofill {
+    background: var(--Ilona-bg_main, #19191B) !important; 
+    color: var(--Ilona-text_light, #F4F7FF) !important; 
+    border: none !important;
+    box-shadow: 0 0 0px 1000px var(--Ilona-bg_main, #19191B) inset !important; 
+    -webkit-text-fill-color: var(--Ilona-text_light, #F4F7FF) !important; 
+    outline: none inset !important;
+}
+   
+.inputButtonText {
+    all: unset;
+   
+        
+        display: block;
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 8px;
+        background-color: var(--Ilona-bg_main, #19191B); /* Цвет фона, как у контейнера */
+        color: var(--Ilona-text_light, #F4F7FF); /* Цвет текста */
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+ 
+}
+    
+
+.confirmGoup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.confirmButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.confirmIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.confirmText {
+    color: var(--Ilona-text_grey, #808080);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.registerButtonFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.registerButton {
+    display: flex;
+    padding: 16px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--Ilona-accent, #FF01DD);
+    color: var(--Ilona-text_dark, #0C0D0D);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+.licenseConfirmContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.licenseConfirmGroup {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.licenseConfirm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.licenseConfirmSimpleText {
+    color: var(--Ilona-text_light, #F4F7FF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.licenseConfirmLinkText {
+    color: var(--Ilona-accent, #FF01DD);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

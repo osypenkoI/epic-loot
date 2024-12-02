@@ -1,0 +1,105 @@
+.frameChild {
+    width: 189px;
+    position: relative;
+    height: 43px;
+}
+.div {
+    position: relative;
+    line-height: 150%;
+}
+.frameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div1 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+}
+.div2 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 500;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+}
+.p {
+    margin: 0;
+}
+.cookie {
+    position: relative;
+    font-weight: 500;
+}
+.epicloot {
+    position: relative;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+}
+.icon {
+    width: 21px;
+    position: relative;
+    height: 22px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon1 {
+    width: 30px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon2 {
+    width: 30px;
+    position: relative;
+    height: 23px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.parent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.frameDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 24px;
+}
+.frameGroup {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.frameParent {
+    width: 100%;
+    position: relative;
+    background-color: #111;
+    height: 327px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #f4f7ff;
+    font-family: Montserrat;
+}
+

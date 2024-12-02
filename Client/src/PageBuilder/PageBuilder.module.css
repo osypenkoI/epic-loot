@@ -1,0 +1,108 @@
+.pageBuilder{
+    width: 100%;
+    position: relative;
+    background-color: #19191b;
+    height: 2499px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #f4f7ff;
+    font-family: Montserrat;
+
+}
+
+.pageContent{
+    position: absolute;
+    top: 0px;
+    left: 420px;
+    background-color: #19191b;
+    width: 1400px;
+    height: 2500px;
+
+    background: var(--Ilona-bg_main, #19191B);
+}
+
+.footerFrame{
+    position: absolute;
+    bottom: 0px;
+
+    background-color: #111;
+    width: 1700px;
+    height: 327px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.banner{
+    width: 931px;
+    position: relative;
+    border-radius: 8px;
+    height: 411px;
+    left: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.pageBuilder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--Ilona-bg_main, #19191B);
+  }
+  
+  .pageContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  .productGroupWrapper {
+    margin-bottom: 20px; /* Отступ между группами продуктов */
+  }
+  
+  .footerFrame {
+    margin-top: 20px; /* Отступ от основного контента до футера */
+  }
+  
+  /* Дополнительные стили */
+  .test3 {
+    padding: 20px;
+  }
+  
+  .banner {
+    margin-bottom: 20px;
+  }
+  
+  .bannerImage {
+    width: 100%;
+  }
+  
+  .pageTitle {
+    color: var(--Ilona-text_light, #F4F7FF);
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  
+  .sortLabel {
+    margin-bottom: 20px;
+  }
+
+  .pageTitleText{
+    color: var(--Ilona-text_light, #F4F7FF);
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+  }
+  
+

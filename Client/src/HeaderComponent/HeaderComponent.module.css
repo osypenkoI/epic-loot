@@ -1,0 +1,93 @@
+.tablerarrowUpIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.tablerarrowUpWrapper {
+    border-radius: 8px;
+    background-color: #111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+}
+
+.linearSearchMagnifer {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.linearSearchMagniferWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cityAirportAddress {
+    position: relative;
+    font-weight: 500;
+}
+
+.instanceParent {
+    width: 700px;
+    border-radius: 8px;
+    background-color: #101011;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0px 8px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+.linearLikeHeart {
+    width: 32px;
+    position: relative;
+    border-radius: 5px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.linearUsersUser {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.linearLikeHeartParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.frameParent {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 70px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #f4f7ff;
+    font-family: Montserrat;
+}

@@ -1,0 +1,108 @@
+.frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.frameContainer {
+    display: flex;
+    width: 895px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.nameGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.nameText {
+    color: var(--Ilona-text_light, #F4F7FF);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 41.6px */
+}
+
+.likeIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.descriptionFrame{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.descriptionText{
+    color: var(--Ilona-text_light, #F4F7FF);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.categoryFrame{
+    display: flex;
+align-items: flex-start;
+gap: 16px;
+}
+
+.categoryButton{
+    display: flex;
+padding: 4px 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--Ilona-accent, #FF01DD);
+}
+
+.categoryButtonText{
+    color: var(--Ilona-text_dark, #0C0D0D);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
+
+.functionalFrameContainer{
+    display: flex;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 8px;
+}
+
+.functionalGroup{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.functionalIcon{
+    width: 30px;
+height: 30px;
+}
+.functionalText{
+    color: var(--Ilona-text_light, #F4F7FF);
+
+/* regular_16 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}

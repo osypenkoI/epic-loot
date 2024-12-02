@@ -1,0 +1,55 @@
+.productListContainer {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.titleGroup{
+    display: flex;
+width: 931px;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.titleText{
+    color: var(--Ilona-text_light, #F4F7FF);
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.test1{
+    display: flex;
+width: 1400px;
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+
+
+.productList {
+    display: flex;
+    flex-wrap: wrap; /* Разрешаем оборачивание карточек */
+    justify-content: flex-start; /* Выравнивание элементов по левому краю */
+    gap: 70px; /* Уменьшаем расстояние между карточками */
+}
+
+.productList > * {
+
+    box-sizing: border-box; /* Учитываем gap в ширине карточки */
+    min-width: 0; /* Чтобы не было переполнения */
+}
+
+.productListHeader {
+    display: flex; /* Используем flexbox */
+    justify-content: space-between; /* Распределяем элементы по бокам */
+    align-items: center; /* Выравнивание по вертикали */
+    width: 1000px;
+    
+  }
+

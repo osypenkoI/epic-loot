@@ -1,0 +1,988 @@
+.tablerarrowUpIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+
+
+.tablerarrowUpWrapper {
+    border-radius: 8px;
+    background-color: #111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+}
+.linearSearchMagnifer {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.linearSearchMagniferWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cityAirportAddress {
+    position: relative;
+    font-weight: 500;
+}
+.instanceParent {
+    width: 950px;
+    border-radius: 8px;
+    background-color: #101011;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0px 8px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.linearLikeHeart {
+    width: 32px;
+    position: relative;
+    border-radius: 5px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.linearUsersUser {
+    width: 32px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.linearLikeHeartParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frameParent {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 720px);
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 80px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.frameChild {
+    align-self: stretch;
+    position: relative;
+    border-radius: 8px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 559px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.imageIcon {
+    position: absolute;
+    top: -87px;
+    left: -6px;
+    width: 1304px;
+    height: 733px;
+    object-fit: cover;
+}
+.image120Icon {
+    position: absolute;
+    top: -35px;
+    left: 3px;
+    width: 300px;
+    height: 225px;
+    object-fit: cover;
+}
+.imageParent {
+    width: 240px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+    height: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.image123Icon {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    width: 372px;
+    height: 209px;
+    object-fit: cover;
+}
+.image124Icon {
+    position: absolute;
+    top: -11px;
+    left: -72px;
+    width: 412px;
+    height: 232px;
+    object-fit: cover;
+}
+.image124Icon1 {
+    position: absolute;
+    top: 0px;
+    left: -45px;
+    width: 385px;
+    height: 217px;
+    object-fit: cover;
+}
+.imageIcon4 {
+    position: absolute;
+    top: -46px;
+    left: -92px;
+    width: 456px;
+    height: 255px;
+    object-fit: cover;
+}
+.image125Icon {
+    position: absolute;
+    top: -8px;
+    left: -72px;
+    width: 380px;
+    height: 213px;
+    object-fit: cover;
+}
+.image127Icon {
+    position: absolute;
+    top: -12px;
+    left: -33px;
+    width: 400px;
+    height: 224px;
+    object-fit: cover;
+}
+.image126Icon {
+    position: absolute;
+    top: -28px;
+    left: -40px;
+    width: 426px;
+    height: 240px;
+    object-fit: cover;
+}
+.frameDiv {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+.frameContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.godOfWar {
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+}
+.santaMonica {
+    width: 895px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+.p {
+    margin: 0;
+}
+.santaMonicaParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 20px;
+}
+.div1 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.wrapper {
+    border-radius: 8px;
+    background-color: #ff01dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+}
+.frameParent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    color: #0c0d0d;
+}
+.frameParent2 {
+    width: 895px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.linearEssentionalUiChe {
+    width: 30px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.linearEssentionalUiCheParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.steam {
+    position: relative;
+    line-height: 150%;
+}
+.frameParent4 {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 16px;
+    font-size: 16px;
+}
+.frameParent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+}
+.wrapper1 {
+    border-radius: 8px;
+    background-color: #ff01dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: 16px;
+    color: #0c0d0d;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 24px;
+}
+.godOfWarRagnarokGroup {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #111;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+.imageIcon9 {
+    position: absolute;
+    top: 0px;
+    left: -37px;
+    width: 225px;
+    height: 125px;
+    object-fit: cover;
+}
+.image135Icon {
+    position: absolute;
+    top: -3px;
+    left: -65px;
+    width: 239px;
+    height: 134px;
+    object-fit: cover;
+}
+.imageParent3 {
+    width: 150px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+    height: 125px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.imageIcon13 {
+    position: absolute;
+    top: -8px;
+    left: -62px;
+    width: 277px;
+    height: 156px;
+    object-fit: cover;
+}
+.image132Icon {
+    position: absolute;
+    top: 0px;
+    left: -41px;
+    width: 229px;
+    height: 128px;
+    object-fit: cover;
+}
+.image134Icon {
+    position: absolute;
+    top: -4px;
+    left: -58px;
+    width: 266px;
+    height: 134px;
+    object-fit: cover;
+}
+.godOfWarRagnarokContainer {
+    width: 814px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frameParent6 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #111;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px;
+}
+.frameParent5 {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div10 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.div11 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.windows1064Bit {
+    position: relative;
+    line-height: 150%;
+    color: #f4f7ff;
+}
+.parent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 168px;
+}
+.parent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 108px;
+}
+.parent5 {
+    width: 236px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.parent6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.directxParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 134px;
+}
+.parent7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 67px;
+}
+.parent8 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 104px;
+}
+.frameParent9 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #808080;
+}
+.parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.div20 {
+    width: 173px;
+    position: relative;
+    line-height: 150%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.parent13 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frameParent8 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 135px;
+    font-size: 16px;
+}
+.parent1 {
+    width: 1246px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div27 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.wrapper3 {
+    border-radius: 8px;
+    border: 1px solid #ff01dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: 16px;
+}
+.imageIcon20 {
+    width: 30px;
+    position: relative;
+    border-radius: 8px;
+    height: 30px;
+    object-fit: cover;
+}
+.boldLikeLike {
+    width: 30px;
+    position: relative;
+    border-radius: 3px;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frameParent15 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div29 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: #808080;
+    text-align: right;
+}
+.frameParent14 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.frameWrapper1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.div30 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+}
+.parent17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 16px;
+}
+.frameParent13 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameWrapper {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+}
+.div33 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    white-space: pre-wrap;
+}
+.div36 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+}
+.frameParent12 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 24px;
+}
+.div37 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+.frameParent11 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.div38 {
+    position: relative;
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.imageIcon23 {
+    position: absolute;
+    top: -7px;
+    left: -149px;
+    width: 549px;
+    height: 257px;
+    object-fit: cover;
+}
+.image111Icon {
+    position: absolute;
+    top: -26px;
+    left: -0.25px;
+    width: 250.3px;
+    height: 333.7px;
+    object-fit: cover;
+}
+.imageIcon24 {
+    position: absolute;
+    top: -125px;
+    left: -207.11px;
+    width: 666px;
+    height: 375px;
+    object-fit: cover;
+}
+.image138Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.div39 {
+    width: 72px;
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.parent20 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.blackMythWukongParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 8px;
+    gap: 16px;
+}
+.frameWrapper6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.imageIcon25 {
+    position: absolute;
+    top: 0px;
+    left: -144px;
+    width: 539px;
+    height: 251px;
+    object-fit: cover;
+}
+.image139Icon {
+    position: absolute;
+    top: 18px;
+    left: -105px;
+    width: 460px;
+    height: 215px;
+    object-fit: cover;
+}
+.image140Icon {
+    position: absolute;
+    top: -11px;
+    left: 0px;
+    width: 250px;
+    height: 334px;
+    object-fit: cover;
+}
+.imageIcon26 {
+    position: absolute;
+    top: -11.47px;
+    left: -164px;
+    width: 578px;
+    height: 270.6px;
+    object-fit: cover;
+}
+.image141Icon {
+    position: absolute;
+    top: 0px;
+    left: -105px;
+    width: 444px;
+    height: 250px;
+    object-fit: cover;
+}
+.image109Icon {
+    position: absolute;
+    top: -23px;
+    left: -132px;
+    width: 514px;
+    height: 289.2px;
+    object-fit: cover;
+}
+.imageIcon28 {
+    position: absolute;
+    top: -2px;
+    left: -18px;
+    width: 268px;
+    height: 268px;
+    object-fit: cover;
+}
+.image109Parent {
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f4f7ff;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.theLastOf {
+    width: 173px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+.groupChild {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 65px;
+    height: 24px;
+}
+.div43 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.vectorParent {
+    width: 68px;
+    position: relative;
+    height: 26px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+
+    background-color: #111;
+    width: 1700px;
+    height: 327px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.div44 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+    color: #ff01dd;
+}
+.groupParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameWrapper11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.frameParent28 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #808080;
+}
+.theLastOfUsPartIParent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.frameWrapper10 {
+    height: 326px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frameItem {
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.vectorIcon {
+    width: 10px;
+    position: relative;
+    height: 18px;
+    object-fit: contain;
+}
+.vectorWrapper {
+    width: 12px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.buttondefaulttextButtonlar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.parent19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 16px;
+}
+.frameGroup {
+    position: absolute;
+    top: 124px;
+    left: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 32px;
+}
+.frameInner {
+    width: 189px;
+    position: relative;
+    height: 43px;
+}
+.frameParent31 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div49 {
+    position: relative;
+    line-height: 130%;
+    font-weight: 500;
+}
+.parent26 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+}
+.epicloot {
+    position: relative;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+}
+.icon {
+    width: 21px;
+    position: relative;
+    height: 22px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon2 {
+    width: 30px;
+    position: relative;
+    height: 23px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.parent30 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.frameParent32 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 24px;
+}
+.frameParent30 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.desktop1Inner {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 760px);
+    background-color: #111;
+    width: 1550px;
+    height: 327px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.desktop1 {
+    width: 100%;
+    position: relative;
+    background-color: #19191b;
+    height: 3900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #f4f7ff;
+    font-family: Montserrat;
+}
+
+
+
