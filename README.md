@@ -1,1 +1,1 @@
-# epic-loot-app
+# epic-loot
