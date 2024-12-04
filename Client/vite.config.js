@@ -5,9 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 server: {
-  proxy: {
-      '/api': 'https://epic-loot-backend-production.up.railway.app',
-  },
+server: {
+    proxy: {
+        '/api': 'https://epic-loot-backend-production.up.railway.app:8080',
+    },
 }
 })
 
