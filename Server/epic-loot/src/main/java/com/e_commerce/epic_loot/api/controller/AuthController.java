@@ -57,19 +57,20 @@ public class AuthController {
         String accessToken = jwtUtil.generateToken(request.getUsername(), customerId ,role, 1000L * 60 * 15 ); // 15 минут
         String refreshToken = jwtUtil.generateRefreshToken(request.getUsername());
 
-        // Устанавливаем токены в куки
         ResponseCookie accessCookie = ResponseCookie.from("accessToken", accessToken)
                 .httpOnly(true)
-                .secure(false) // Только HTTPS
+                .secure(true) // Только HTTPS
                 .path("/")
                 .maxAge( 60 * 15) // 15 минут
+                .sameSite("None") // Кросс-доменные запросы
                 .build();
 
         ResponseCookie refreshCookie = ResponseCookie.from("refreshToken", refreshToken)
                 .httpOnly(true)
-                .secure(false) // Только HTTPS
+                .secure(true) // Только HTTPS
                 .path("/")
                 .maxAge(7 * 24 * 60 * 60) // 7 дней
+                .sameSite("None") // Кросс-доменные запросы
                 .build();
 
         return ResponseEntity.ok()
