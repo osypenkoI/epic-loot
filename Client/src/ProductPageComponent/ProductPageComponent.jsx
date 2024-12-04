@@ -16,16 +16,11 @@ const ProductPageComponent = () => {
     const [loading, setLoading] = useState(true); // Статус завантаження
     const [error, setError] = useState(null); // Статус помилки
 
-    // useEffect для завантаження даних про продукт
     useEffect(() => {
         const fetchProductData = async () => {
             try {
                 const response = await apiClient.get(`/api/public/product/viewProductDetails/${id}`);
-                if (!response.ok) {
-                    throw new Error('Помилка при завантаженні даних про продукт');
-                }
-                const data = await response.json();
-                setProduct(data); // Встановлюємо дані про продукт
+                setProduct(response.data); // Встановлюємо дані про продукт
             } catch (err) {
                 setError("Не вдалося завантажити дані про продукт.");
                 console.error(err);
@@ -33,9 +28,9 @@ const ProductPageComponent = () => {
                 setLoading(false); // Завершуємо завантаження
             }
         };
-
+    
         fetchProductData();
-    }, [id]); // Запит спрацьовує при зміні id продукту
+    }, [id]); // Запит спрацьовує при зміні id продукту    
 
     if (loading) {
         return <div>Завантаження...</div>; // Показуємо завантаження, поки дані не отримано
