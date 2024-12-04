@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; 
 import styles from './SearchComponent.module.css';
+import apiClient from "../config/ApiClient";
 
 const SearchComponent = () => {
     const [query, setQuery] = useState("");
@@ -8,15 +9,25 @@ const SearchComponent = () => {
     const navigate = useNavigate(); 
 
     useEffect(() => {
-        if (query.length >= 3) { 
-            fetch(`/api/public/product/search?query=${query}`)
-                .then((response) => response.json())
-                .then((data) => setProducts(data))
-                .catch((error) => console.error(error));
-        } else {
-            setProducts([]); 
-        }
-    }, [query]);
+        const fetchSearchResults = async () => {
+            if (query.length >= 3) { // Пошук тільки при введенні трьох або більше символів
+                setLoading(true); // Початок завантаження
+                try {
+                    const response = await apiClient.get(`/api/public/product/search?query=${query}`);
+                    setProducts(response.data); // Оновлюємо стейт з отриманими продуктами
+                } catch (err) {
+                    setError("Не вдалося завантажити продукти.");
+                    console.error(err);
+                } finally {
+                    setLoading(false); // Завершуємо завантаження
+                }
+            } else {
+                setProducts([]); // Очищаємо результати пошуку при менше ніж 3 символах
+            }
+        };
+    
+        fetchSearchResults();
+    }, [query]); // Запит спрацьовує при зміні query    
 
     const handleCardClick = (id) => {
        
