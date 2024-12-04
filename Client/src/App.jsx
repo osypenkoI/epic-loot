@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./HomePage/HomePage";
-import SubCategoryPage from "./SubcategoryPage/SubCategoryPage";  // Страница подкатегории
+import SubCategoryPage from "./SubCategoryPage/SubCategoryPage";  // Страница подкатегории
 import CategoryPage from "./CategoryPage/CategoryPage";  // Страница категории
 import WishListPage from "./WishListPage/WishListPage";
 import PurchasedGamesPage from "./PurchasedGamesPage/PurchasedGamesPage";
