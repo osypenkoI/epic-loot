@@ -5,6 +5,7 @@ import apiClient from "../config/ApiClient";
 
 const SearchComponent = () => {
     const [query, setQuery] = useState("");
+    const [loading, setLoading] = useState(true);
     const [products, setProducts] = useState([]);
     const navigate = useNavigate(); 
 
