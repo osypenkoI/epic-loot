@@ -60,7 +60,7 @@ public class PurchaseOrderService {
         params.put("currency", "UAH");
         params.put("description", "Замовлення №" + savedOrder.getId());
         params.put("order_id", savedOrder.getLiqpayOrderId()); // Використовуємо liqpayOrderId
-        params.put("server_url", "https://176a-62-16-20-73.ngrok-free.app/api/customer/order/callback");
+        params.put("server_url", "https://7fd5-195-64-239-54.ngrok-free.app/api/customer/order/callback");
 
         // 3. Генерація даних для форми LiqPay
         String data = Base64.getEncoder()

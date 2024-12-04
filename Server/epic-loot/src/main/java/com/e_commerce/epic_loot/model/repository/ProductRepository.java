@@ -29,18 +29,18 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     List<Product> findTopPopularProducts(Pageable pageable);
 
     @Query("""
-        SELECT p FROM Product p 
-        JOIN p.categories c
-        LEFT JOIN p.purchaseOrders po
-        WHERE c.id = (
-            SELECT c2.id FROM Category c2
-            JOIN c2.products cp 
-            WHERE cp.id = :currentProductId
-        )
-        AND p.id != :currentProductId
-        GROUP BY p.id, p.title, p.price
-        ORDER BY COUNT(po.id) DESC
-    """)
+    SELECT p FROM Product p
+    JOIN p.categories c
+    WHERE c.id = (
+        SELECT c2.id FROM Category c2
+        JOIN c2.products cp
+        WHERE cp.id = :currentProductId
+        ORDER BY RANDOM() LIMIT 1
+    )
+    AND p.id != :currentProductId
+    ORDER BY RANDOM()
+    LIMIT 4
+""")
     List<Product> findSimilarProducts(@Param("currentProductId") Integer currentProductId, Pageable pageable);
 
     @Query("SELECT p FROM Product p " +

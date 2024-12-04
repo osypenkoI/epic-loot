@@ -205,6 +205,7 @@ public class CustomerService implements UserDetailsService {
         if (reviewRepository.existsByCustomerAndProduct(customer, product)) {
             throw new IllegalArgumentException("Review already exists for this product");
         }
+        review.setRating(reviewDTO.getRating());
         review.setCreatedAt(new Timestamp(System.currentTimeMillis()));
         review.setReviewText(reviewDTO.getReviewText());
         // Устанавливаем связи

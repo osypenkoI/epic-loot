@@ -156,6 +156,8 @@ public class ProductService {
                         featureDTOS.add(featureDTO);
                     }
             );
+            productDetailsDTO.setDiscountPrice(
+                    productDetailsDTO.calculateDiscountPrice(product.getPrice(),product.getDiscount()));
             productDetailsDTO.setFeatures(featureDTOS);
             productDetailsDTO.setMinimumRequirements(mapToMinimumRequirementsDTO(product.getMinimumRequirements()));
             productDetailsDTO.setRecommendedRequirements(mapToRecommendedRequirementsDTO(product.getRecommendedRequirements()));

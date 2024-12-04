@@ -32,14 +32,7 @@ function ProductSellComponent({ productData, customerId }) {
         <div className={styles.frameGroup}>
           {/* Відображаємо ціну зі знижкою або звичайну */}
           <div className={styles.priceText}>
-            {isDiscounted ? (
-              <>
-                <span className={styles.originalPrice}>{price}₴</span>
-                <span className={styles.discountedPrice}>{discountPrice}₴</span>
-              </>
-            ) : (
-              <span>{price}₴</span>
-            )}
+                <span className={styles.originalPrice}>{finalPrice}₴</span>
           </div>
 
           {/* Кнопка для оплати - замість кошика */}

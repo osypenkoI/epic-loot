@@ -10,28 +10,29 @@ const PaymentComponent = ({ productId, customerId, amount, children }) => {
         customerId,
         price: amount,
       });
-
+  
       const { data, signature } = response.data;
-
-      // Автоматичне перенаправлення на LiqPay
+  
+      // Создание формы для отправки на LiqPay в новой вкладке
       const form = document.createElement("form");
       form.method = "POST";
       form.action = "https://www.liqpay.ua/api/3/checkout";
-
+      form.target = "_blank";  // Открыть форму в новой вкладке
+  
       const dataInput = document.createElement("input");
       dataInput.type = "hidden";
       dataInput.name = "data";
       dataInput.value = data;
-
+  
       const signatureInput = document.createElement("input");
       signatureInput.type = "hidden";
       signatureInput.name = "signature";
       signatureInput.value = signature;
-
+  
       form.appendChild(dataInput);
       form.appendChild(signatureInput);
       document.body.appendChild(form);
-
+  
       form.submit();
     } catch (error) {
       console.error("Помилка створення замовлення:", error.message);

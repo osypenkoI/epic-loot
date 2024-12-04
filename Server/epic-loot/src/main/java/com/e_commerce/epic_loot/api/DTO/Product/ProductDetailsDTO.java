@@ -18,6 +18,8 @@ public class ProductDetailsDTO {
 
     private BigDecimal discount;
 
+    private Integer discountPrice;
+
     private String mainPictureUrl;
 
     private List<String> otherPictureUrl = new ArrayList<>();
@@ -29,5 +31,15 @@ public class ProductDetailsDTO {
     private RequirementsDTO minimumRequirements;
 
     private RequirementsDTO recommendedRequirements;
+
+    public Integer calculateDiscountPrice(Integer price, BigDecimal discountPercent) {
+        if (discountPercent == null || discountPercent.compareTo(BigDecimal.ZERO) <= 0) {
+            return price; // Если скидка 0% или отрицательная, возвращаем оригинальную цену
+        }
+
+        BigDecimal discountMultiplier = BigDecimal.ONE.subtract(discountPercent.divide(BigDecimal.valueOf(100))); // Преобразуем процент в множитель
+        BigDecimal discountedPrice = BigDecimal.valueOf(price).multiply(discountMultiplier); // Применяем множитель
+        return discountedPrice.setScale(0, BigDecimal.ROUND_HALF_UP).intValue(); // Округляем до целого числа
+    }
 
 }

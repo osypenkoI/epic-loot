@@ -116,6 +116,7 @@
     align-self: stretch;
     border-radius: 8px;
     background: var(--Ilona-bg_main, #19191B);
+    width: 580px;
 }
 
 .inputButton {

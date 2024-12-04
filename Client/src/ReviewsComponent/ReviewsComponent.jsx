@@ -119,8 +119,6 @@ function ReviewsComponent() {
                     />
                   </div>
                   <div className={styles.reviewDate}>
-                    
-                    Дата не передається
                   </div>
                 </div>
               </div>
