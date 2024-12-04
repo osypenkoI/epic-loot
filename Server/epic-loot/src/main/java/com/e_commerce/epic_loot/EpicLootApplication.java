@@ -19,7 +19,7 @@ public class EpicLootApplication {
         @Override
         public void addCorsMappings(CorsRegistry registry) {
             registry.addMapping("/**")
-                    .allowedOrigins("https://lively-salamander-718c8f.netlify.app") // URL вашого фронту
+                    .allowedOrigins("https://epic-loot.netlify.app/") // URL вашого фронту
                     .allowedMethods("GET", "POST", "PUT", "DELETE") // Методи, які дозволяються
                     .allowCredentials(true); // Якщо вам потрібні куки або автентифікація
         }
