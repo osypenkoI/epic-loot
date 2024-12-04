@@ -11,7 +11,7 @@ const HomePage = () => {
     const userId = localStorage.getItem("customerId") || "1";
 
     // Получаем базовый URL из переменной окружения
-    const API_URL = import.meta.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';  // В случае разработки fallback на локальный сервер
+    const API_URL = 'https://epic-loot-backend-production.up.railway.app';
 
     // Запрос на сервер с ID пользователя
     fetch(`${API_URL}/api/public/home/${userId}`)

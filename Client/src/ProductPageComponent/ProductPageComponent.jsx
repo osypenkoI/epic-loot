@@ -8,6 +8,7 @@ import ReviewsComponent from '../ReviewsComponent/ReviewsComponent';
 import ProductSellComponent from '../ProductSellComponent/ProductSellComponent';
 import ProductDetailsComponent from '../ProductDetailsComponent/ProductDetailsComponent';
 import { useParams } from 'react-router-dom'; // Для отримання id продукту з URL
+import apiClient from "../config/ApiClient";
 
 const ProductPageComponent = () => {
     const { id } = useParams(); // Отримуємо id з URL
@@ -19,7 +20,7 @@ const ProductPageComponent = () => {
     useEffect(() => {
         const fetchProductData = async () => {
             try {
-                const response = await fetch(`/api/public/product/viewProductDetails/${id}`);
+                const response = await apiClient.get(`/api/public/product/viewProductDetails/${id}`);
                 if (!response.ok) {
                     throw new Error('Помилка при завантаженні даних про продукт');
                 }

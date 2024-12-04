@@ -8,13 +8,18 @@ const SubCategoryPage = () => {
   const [sortType, setSortType] = useState("price-asc"); // Начальный тип сортировки
 
   useEffect(() => {
-    // Запрос на сервер для получения данных подкатегории с использованием subCategoryId
-    fetch(`/api/public/subcategory/${subCategoryId}`) // Используем ID из URL
-      .then(response => response.json())
-      .then(data => setPageData(data))
-      .catch(err => console.log(err));
-  }, [subCategoryId]);  // Зависимость от subCategoryId, чтобы перезапросить при изменении
-
+    const fetchSubCategoryData = async () => {
+      try {
+        const response = await apiClient.get(`/api/public/subcategory/${subCategoryId}`); // Запит через apiClient
+        setPageData(response.data); // Зберігаємо отримані дані
+      } catch (err) {
+        console.error("Не вдалося завантажити дані підкатегорії:", err);
+      }
+    };
+  
+    fetchSubCategoryData();
+  }, [subCategoryId]); // Перезапуск ефекту при зміні subCategoryId
+  
   const handleSortChange = (newSortType) => {
     setSortType(newSortType);
   };
