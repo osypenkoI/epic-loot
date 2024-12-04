@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";  // Импортируем useParams для получения параметра из URL
 import PageBuilder from "../PageBuilder/PageBuilder"; // Импортируем PageBuilder
+import apiClient from "../config/ApiClient";
 
 const SubCategoryPage = () => {
   const { subCategoryId } = useParams();  // Получаем ID подкатегории из URL

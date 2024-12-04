@@ -20,7 +20,7 @@ function SimilarProductComponent() {
             };
 
             try {
-                const response = await fetch("http://localhost:8080/api/public/product/productGroup", {
+                const response = await fetch("https://epic-loot-backend-production.up.railway.app/api/public/product/productGroup", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
