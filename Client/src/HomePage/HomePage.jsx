@@ -6,12 +6,15 @@ const HomePage = () => {
   const [pageData, setPageData] = useState(null);
   const [sortType, setSortType] = useState("price-asc"); // Начальный тип сортировки
 
-  useEffect(() => {
+ useEffect(() => {
     // Получаем userId из localStorage или используем 1, если ID нет в localStorage
-    const userId = localStorage.getItem("customerId") || "1"; 
+    const userId = localStorage.getItem("customerId") || "1";
+
+    // Получаем базовый URL из переменной окружения
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';  // В случае разработки fallback на локальный сервер
 
     // Запрос на сервер с ID пользователя
-    fetch(`/api/public/home/${userId}`) // Используем userId в запросе
+    fetch(`${API_URL}/api/public/home/${userId}`)
       .then(response => response.json())
       .then(data => setPageData(data))
       .catch(err => console.log(err));
