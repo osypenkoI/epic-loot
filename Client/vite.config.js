@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-        '/api': 'process.env.REACT_APP_BACKEND_URL',
+        '/api': 'https://epic-loot-backend-production.up.railway.app',
     },
 }
 })

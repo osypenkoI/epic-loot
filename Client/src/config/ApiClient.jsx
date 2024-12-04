@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'process.env.REACT_APP_BACKEND_URL',
+    baseURL: 'https://epic-loot-backend-production.up.railway.app',
     withCredentials: true, // Включаем куки
 });
 
@@ -21,7 +21,7 @@ apiClient.interceptors.response.use(
 
             try {
                 const refreshResponse = await axios.post(
-                    'process.env.REACT_APP_BACKEND_URL/api/auth/refresh',
+                    'https://epic-loot-backend-production.up.railway.app/api/auth/refresh',
                     {},
                     { withCredentials: true }
                 );
